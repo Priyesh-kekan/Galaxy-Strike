@@ -4,22 +4,31 @@
     "maps": [
         {
             "name": "Player",
-            "id": "13f08041-58eb-41d5-b2f8-cc5a2ded75f5",
+            "id": "46f5b0dd-f270-4bc6-920f-f417ce7884d5",
             "actions": [
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "1eff0410-fd44-4ba6-938e-87a36a2619ad",
+                    "id": "a9fa5d89-4129-49de-be4a-ded7594740f3",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "8824c0a2-2a4c-48e2-90f5-fd5bb5bb6d0e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "a7eff518-00b8-4c54-a27f-513b3679719d",
+                    "id": "cf3db73a-2591-4fe3-b726-89fd7ade73e9",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -30,7 +39,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "f9f13429-a842-4fd7-9070-4ca696b58887",
+                    "id": "1bd3fcea-5bcb-4a51-9b41-4b408abcfc0d",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -41,7 +50,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "48d0ffdd-2717-4774-b8fd-7e9d117af342",
+                    "id": "eaf5d8e6-322f-48e3-83ac-4126bee92098",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -52,7 +61,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "9d107f5b-361e-4a53-8e6c-a99917641527",
+                    "id": "26831a76-3da2-4a08-824c-e98d5cc56dbd",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -63,7 +72,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "dd99d7a5-80bb-4b77-b7da-d397471c439d",
+                    "id": "80552704-484d-4eab-82ab-38a0529e2b37",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -71,6 +80,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9afc812e-daf4-4445-8a82-3023c93d22a5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
