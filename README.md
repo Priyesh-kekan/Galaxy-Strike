@@ -57,7 +57,3 @@ The project demonstrates strong Unity fundamentals including scripting, prefabs,
 - Vectored movement math (vector arithmetic)  
 
 ---
-
-## 📁 Project Structure (Key Folders)
-```plaintext
-A
