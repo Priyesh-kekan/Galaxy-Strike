@@ -56,4 +56,3 @@ The project demonstrates strong Unity fundamentals including scripting, prefabs,
 - Public methods in C# for modular gameplay  
 - Vectored movement math (vector arithmetic)  
 
----
